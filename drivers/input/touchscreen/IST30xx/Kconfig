@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a6f4fe3ec2e1c1fd85bf1a97671dee8cf8e2207
+config TOUCHSCREEN_IST30XX
+	tristate "IMAGES IST30XX touchpanel driver"
+	depends on CONFIG_INPUT_TOUCHSCREEN
+	default n
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 5a6f4fe3ec2e1c1fd85bf1a97671dee8cf8e2207
