@@ -590,7 +590,6 @@ config CRYPTO_SHA256_SPARC64
 	  SHA-256 secure hash standard (DFIPS 180-2) implemented
 	  using sparc64 crypto instructions, when available.
 
-<<<<<<< HEAD
 config CRYPTO_SHA2_ARM_CE
 	tristate "SHA-224/256 digest algorithm (ARM v8 Crypto Extensions)"
 	depends on ARM && KERNEL_MODE_NEON
@@ -600,8 +599,6 @@ config CRYPTO_SHA2_ARM_CE
 	  SHA-256 secure hash standard (DFIPS 180-2) implemented
 	  using special ARMv8 Crypto Extensions.
 
-=======
->>>>>>> 5a6f4fe3ec2e1c1fd85bf1a97671dee8cf8e2207
 config CRYPTO_SHA512
 	tristate "SHA384 and SHA512 digest algorithms"
 	select CRYPTO_HASH

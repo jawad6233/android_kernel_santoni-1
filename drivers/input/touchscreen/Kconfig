@@ -254,8 +254,6 @@ config TOUCHSCREEN_DA9052
 	  To compile this driver as a module, choose M here: the
 	  module will be called da9052_tsi.
 
-<<<<<<< HEAD
-=======
 config TOUCHSCREEN_DOUBLETAP2WAKE
 	tristate "Doubletap2wake serial touchscreen"
 	select SERIO
@@ -268,7 +266,6 @@ config TOUCHSCREEN_DOUBLETAP2WAKE
 		To compile this driver as a module, choose M here: the
 		module will be called doubletap2wake.
 
->>>>>>> 5a6f4fe3ec2e1c1fd85bf1a97671dee8cf8e2207
 config TOUCHSCREEN_DYNAPRO
 	tristate "Dynapro serial touchscreen"
 	select SERIO

@@ -19,7 +19,6 @@ config ANDROID_BINDER_IPC
 	  Android process, using Binder to identify, invoke and pass arguments
 	  between said processes.
 
-<<<<<<< HEAD
 config ANDROID_BINDER_DEVICES
  	string "Android Binder devices"
  	depends on ANDROID_BINDER_IPC
@@ -32,9 +31,6 @@ config ANDROID_BINDER_DEVICES
  	  created. Each binder device has its own context manager, and is
  	  therefore logically separated from the other devices.
 
-
-=======
->>>>>>> 5a6f4fe3ec2e1c1fd85bf1a97671dee8cf8e2207
 config ANDROID_BINDER_IPC_32BIT
 	bool
 	depends on !64BIT && ANDROID_BINDER_IPC
